@@ -22,7 +22,7 @@ y_train = df['income']
 
 
 # Model 
-logit_model = LogisticRegression(max_iter=40000)
+logit_model = LogisticRegression(max_iter=50000)
 logit_model = logit_model.fit(X_train, y_train)
 
 # Cross validation
